@@ -1,0 +1,9 @@
+Run Time: 2026-04-06 17:55:59
+
+Pipeline Check Report
+
+Missing columns: ['product_id']
+Unexpected columns: ['id']
+High nulls in 'price': 75.0%
+Price mean shifted by 60.0%
+Category 'home' dropped by 100.0%
