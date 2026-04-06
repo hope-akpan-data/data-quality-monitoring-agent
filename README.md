@@ -11,4 +11,18 @@ This agent runs after pipeline execution and flags:
 - High null values
 - Data distribution changes
 
-## Example Output;Pipeline Check Report
+## Example Output;
+Pipeline Check Report
+
+Missing columns: ['product_id']
+Unexpected columns: ['id']
+High nulls in 'price': 75.0%
+Category 'home' dropped by 100.0%
+
+
+## Tech Stack
+- Python
+- Pandas
+
+## Use Case
+Designed for data teams to catch issues before they affect dashboards or models.
